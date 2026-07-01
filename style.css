@@ -114,3 +114,10 @@ ul {
         flex-direction: column;
     }
 }
+
+/* Estilo para os ícones SVG dentro dos botões */
+.btn svg {
+    width: 20px;
+    height: 20px;
+    fill: white; /* Garante que o ícone fique branco */
+}
