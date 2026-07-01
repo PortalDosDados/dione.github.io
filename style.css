@@ -1,83 +1,31 @@
-/* Variáveis de Cores */
-:root {
-    --primary: #0056b3;
-    --bg: #f4f4f9;
-    --text: #333;
+/* --- Novas Regras para a Jornada no GitHub Pages --- */
+
+.jornada {
+    margin: 40px 0;
 }
 
-/* Configurações Gerais da Página */
-body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    line-height: 1.6;
-    background-color: var(--bg);
-    color: var(--text);
-    margin: 0;
-    padding: 20px;
+.jornada-item {
+    margin-bottom: 30px;
 }
 
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    background: #fff;
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+.img-jornada {
+    width: 100%; /* Ocupa a largura total do container */
+    max-width: 600px; /* Limita o tamanho em telas grandes */
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
-/* Layout do Perfil (Cabeçalho) */
-.header {
-    display: flex;
-    gap: 30px;
-    align-items: start;
-    margin-bottom: 40px;
+figcaption {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+    font-style: italic;
 }
 
-.foto-perfil {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background: #ddd;
-    object-fit: cover;
-}
-
-h1, h2 {
-    color: var(--primary);
-}
-
-ul {
-    padding-left: 20px;
-}
-
-/* Estilização dos Botões Sociais */
-.btn-container {
-    display: flex;
-    gap: 15px;
-    margin-top: 20px;
-}
-
-.btn {
-    padding: 10px 20px;
-    border-radius: 6px;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-    transition: 0.3s;
-    color: white;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    text-decoration: none;
-}
-
-.btn-linkedin { background-color: #0077b5; }
-.btn-youtube { background-color: #ff0000; }
-.btn-github { background-color: #333; }
-.btn:hover { opacity: 0.8; }
-
-/* Responsividade para Celulares */
-@media (max-width: 600px) {
-    .header {
-        flex-direction: column;
-        text-align: center;
-    }
+/* --- Destaque especial para o novo projeto do portfólio --- */
+.destaque-especial {
+    border-left: 4px solid #f39c12; /* Cor diferente (laranja) para destacar */
 }
